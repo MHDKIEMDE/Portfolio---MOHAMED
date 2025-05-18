@@ -14,3 +14,7 @@ Route::get('/home', function () {
 Route::get('/', function () {
     return view('accueil');
 });
+
+Route::get('/test', function () {
+    return 'Le serveur fonctionne bien';
+});
